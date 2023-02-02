@@ -12,8 +12,14 @@ export default makeStyles(() => ({
     display: 'flex',
     justifyContent: 'flex-end',
   },
+  contentWrapper:{
+    height: '135px ',
+    overflowY: 'hidden'
+    
+  },
   cardContent: {
     display: 'flex',
     justifyContent: 'space-between',
+    backgroundColor: 'red'
   },
 }));
