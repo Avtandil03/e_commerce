@@ -4,9 +4,10 @@ import Product from './Product/Product'
 import useStyles from './productsStyles'
 
 const Products = ({products, onAddToCart}) => {
-
-
+  
   const classes = useStyles()
+  if(!products) return
+
 
   return (
     <main className={classes.content}>
